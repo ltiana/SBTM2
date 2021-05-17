@@ -3,7 +3,7 @@ A simple tool supporting Session Based Test Managenent - Node.js, express, Mongo
 
 ## First version:
 
-CRUD for ** test charters ** , ** test sessions **, users/ auth
+CRUD for __test charters__, __test sessions__, __users/ auth__
 tagging of test sessions and test charters
 search charters
 search sessions
