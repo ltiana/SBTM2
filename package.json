@@ -1,0 +1,49 @@
+{
+  "name": "sbtm2",
+  "version": "1.0.0",
+  "description": "A software testing documentation tool following the SBTM method",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"jest --watchAll --verboce --coverage\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ltiana/SBTM2.git"
+  },
+  "keywords": [
+    "SBTM",
+    "session",
+    "based",
+    "test",
+    "management"
+  ],
+  "author": "Liliana Martinez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ltiana/SBTM2/issues"
+  },
+  "homepage": "https://github.com/ltiana/SBTM2#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "helmet": "^4.6.0",
+    "joi": "^17.4.0",
+    "joi-objectid": "^3.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^5.12.9",
+    "morgan": "^1.10.0",
+    "winston": "^3.3.3",
+    "winston-mongodb": "^5.0.7"
+  },
+  "devDependencies": {
+    "eslint": "^7.26.0",
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.7",
+    "supertest": "^6.1.3"
+  }
+}
