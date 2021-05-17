@@ -9,10 +9,11 @@ Hosted in Heroku, MongoDB Atlas
 
 ## v. 1.0.1
 * enter charter data and create a session sheet in text format
+* read in data from session sheet in text format
+* export charter data + session data as test file
 
 
 ## future
-* read in data from session sheet in text format
 * search charters
 * search sessions
 * attachments
